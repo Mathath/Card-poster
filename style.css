@@ -82,6 +82,23 @@
 
 @media (max-width: 400px) {
     .full-card {
-        grid-template-columns: 1fr;
+            grid-template-columns: 1fr;
+            height: 700px;
     }
+
+        .first-section {
+            min-height: 200px;
+        }
+
+        .second-section {
+            min-height: 380px;
+        }
+
+        .button-wrapper button {
+            width: 100%;
+        }
+
+        .title1 h2{
+            margin: 0px;
+        }
 }
