@@ -79,3 +79,9 @@
     cursor: pointer;
     width: 270px;
 }
+
+@media (max-width: 400px) {
+    .full-card {
+        grid-template-columns: 1fr;
+    }
+}
